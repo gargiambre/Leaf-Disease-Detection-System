@@ -4,15 +4,11 @@ Agriculture is the backbone of India. Tomato leaf disease detection employs tech
 # Methodology
 **1) Image Acquisition:** Image acquisition devices, this step includes use of upload image option provided in the interface of the application to upload the image of tomato leaf.
 
-
 **2) Image Pre-processing:** Image pre-processing techniques in this step the captured image is being proceed as input and can be broadly classified into image enhancement and image restoration for the system. Pre-processes the input image then converts the input in interpolate grey level mapping to assemble the final image.
-
 
 **3) YOLO Model:** Once the uploaded image gets pre-processed and matched with the dataset after that it goes to the next step that is YOLO (you only look once) algorithm which will identify and localize the region of interest which in this case would be the disease part of the leaf after identifying it will output the bounding boxes around that region indicating the presence of leaf diseases.
 
-
 **4) CNN Model:** After figuring out the diseased part of the leaf with the help of YOLO. The Pre-trained CNN will then analyze the content within the bounding boxes to classify the detected regions into different disease categories. And will identify the specific type of disease present on the leaves.
-
 
 **5) Classification and Recognition:**  Classification and Recognition stage. In this step the images that has been identified from the above stage will be classified with the tomato leaf diseases dataset and then it generates the output of the uploaded input image with the diseases name along with precautions to be taken such as pesticides and fertilizers to be used.
 
