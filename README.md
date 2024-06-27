@@ -15,9 +15,15 @@ Agriculture is the backbone of India. Tomato leaf disease detection employs tech
 
 # Repository Content
 **dataset/:** Contains the dataset of images used for training and testing.
+
 **api/:** Includes the backend API for handling image uploads and processing.
+
 **frontend/:** Provides the frontend interface for users to interact with the system.
+
 **models/:** Holds trained models used for disease classification.
+
 **model1/, model2/:** Additional models or variations used in the project.
+
 **cnn_and_yolo_based_plant_disease_detection.ipynb:** Jupyter notebook containing code and explanations of the CNN and YOLO-based disease detection.
+
 **training/:** Scripts or notebooks used for model training and evaluation.
